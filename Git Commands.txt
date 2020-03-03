@@ -29,6 +29,7 @@ Connects your .git folder to your github folder
 
 7. git push -u origin master
 sends/updates the changes to your github folder
+git pull - Opposite of git push
 
 8. git clone
 Copies a git repository from a remote source to your machine.
@@ -48,3 +49,6 @@ clears all the configuations made.
 
 13. git merge
 merges two branches you are working on
+
+14. git fetch
+performs a pull request
