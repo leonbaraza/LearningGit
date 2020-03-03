@@ -29,3 +29,22 @@ Connects your .git folder to your github folder
 
 7. git push -u origin master
 sends/updates the changes to your github folder
+
+8. git clone
+Copies a git repository from a remote source to your machine.
+command : git clone <repository url>
+
+9. git status
+checks the status of the files you've changed in your working directory
+
+10. git checkout
+Switch to diffrent branches
+
+11. git branch -a
+check all the branches that are in remote.
+
+12. git reset head
+clears all the configuations made.
+
+13. git merge
+merges two branches you are working on
