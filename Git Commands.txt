@@ -1,5 +1,21 @@
-GIT COMMANDS
+Learning Git
 
+What is Git?
+Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. 
+Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+
+The Three States
+Pay attention now?—?here is the main thing to remember about Git if you want the rest of your learning process to go smoothly. Git has three main states that your files can reside in: modified, staged, and committed:
+
+Modified means that you have changed the file but have not committed it to your database yet.
+
+Staged means that you have marked a modified file in its current version to go into your next commit snapshot.
+
+Committed means that the data is safely stored in your local database.
+
+This leads us to the three main sections of a Git project: the working tree, the staging area, and the Git directory.
+
+GIT COMMANDS
 
 1. git init
 Creates for you a hidden folder that holds all the files to be send to github.
@@ -52,3 +68,31 @@ merges two branches you are working on
 
 14. git fetch
 performs a pull request
+
+15. git command --help
+When in doubt of what the command does use this.
+
+16. git blame [file]
+Lists the change date and authors for a file.
+
+17. git show [commit]:[file]
+show the file changes for a commit id and/or file
+
+18. git log
+show full change history
+
+19. git log -p [file/directory]
+show change history for file/directory including diff
+
+20. git diff
+show changes to files not yet staged
+
+21. git diff --cached 
+show all changes of staged files.
+
+22. git diff HEAD
+show all staged and unstages file changes
+
+23. git diff commit1 commit2
+show all changes between two commit ids
+
